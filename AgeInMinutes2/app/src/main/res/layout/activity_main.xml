@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="당신의"
+        android:text="멋진 당신의"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="는 몇분?"
+        android:text="는 몇분"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -68,10 +68,11 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="140000"
+        android:text="12572640"
         android:textColor="@color/textBlue"
         android:textSize="35sp"
         android:textStyle="bold" />
@@ -80,7 +81,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="선택된 날짜"
+        android:text="지금까지 분 살았습니다!"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAgeInSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="754,358,400"
+        android:textColor="@color/textBlue"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="지금까지 초 살았습니다!"
         android:textColor="@color/lightGray"
         android:textSize="20sp"
         android:textStyle="bold" />
